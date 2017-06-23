@@ -1,0 +1,41 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions", "external"],
+
+    "jsList" : [
+
+
+        "src/frame/frame.js",
+
+        "src/frame/game_world.js",
+        "src/frame/file_utils.js",
+
+        "src/frame/gozapreader/gozapanimate.js",
+        "src/frame/gozapreader/gozapspritemodel.js",
+        "src/frame/gozapreader/gozapsprite.js",
+        "src/frame/gozapreader/gozapreader.js",
+
+
+
+        "src/frame/frame_init.js",
+
+
+        "src/games/game/game.js",
+
+        "src/games/game/testgozapreader.js",
+        "src/games/game/testspine.js",
+
+        "src/games/game/game_init.js",
+
+        "src/boot.js"
+
+    ]
+}

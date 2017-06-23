@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		769820921A36BC1D00BFD6FF /* libgozap_libs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 769820861A36BC1D00BFD6FF /* libgozap_libs.a */; };
+		769820C11A36BC9600BFD6FF /* gozap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769820BB1A36BC9600BFD6FF /* gozap.cpp */; };
+		769820C21A36BC9600BFD6FF /* gozap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769820BB1A36BC9600BFD6FF /* gozap.cpp */; };
+		769820C31A36BC9600BFD6FF /* gozap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769820BB1A36BC9600BFD6FF /* gozap.cpp */; };
+		769820C41A36BC9600BFD6FF /* gozap.h in Headers */ = {isa = PBXBuildFile; fileRef = 769820BC1A36BC9600BFD6FF /* gozap.h */; };
+		769820C91A36BC9600BFD6FF /* simple_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769820BF1A36BC9600BFD6FF /* simple_class.cpp */; };
+		769820CA1A36BC9600BFD6FF /* simple_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769820BF1A36BC9600BFD6FF /* simple_class.cpp */; };
+		769820CB1A36BC9600BFD6FF /* simple_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769820BF1A36BC9600BFD6FF /* simple_class.cpp */; };
+		769820CC1A36BC9600BFD6FF /* simple_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 769820C01A36BC9600BFD6FF /* simple_class.h */; };
+		769820DF1A36C81D00BFD6FF /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769820DD1A36C81D00BFD6FF /* HelloWorldScene.cpp */; };
+		769820E01A36C81D00BFD6FF /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769820DD1A36C81D00BFD6FF /* HelloWorldScene.cpp */; };
+		769820E11A36C81D00BFD6FF /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 769820DD1A36C81D00BFD6FF /* HelloWorldScene.cpp */; };
+		769820E21A36C81D00BFD6FF /* HelloWorldScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 769820DE1A36C81D00BFD6FF /* HelloWorldScene.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		769820931A36BC1D00BFD6FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7698207E1A36BC1D00BFD6FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769820851A36BC1D00BFD6FF;
+			remoteInfo = gozap_libs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		769820841A36BC1D00BFD6FF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		769820861A36BC1D00BFD6FF /* libgozap_libs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgozap_libs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		769820911A36BC1D00BFD6FF /* gozap_libsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gozap_libsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		769820AD1A36BC4900BFD6FF /* libgozap_libs mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libgozap_libs mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		769820BB1A36BC9600BFD6FF /* gozap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gozap.cpp; sourceTree = "<group>"; };
+		769820BC1A36BC9600BFD6FF /* gozap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gozap.h; sourceTree = "<group>"; };
+		769820BF1A36BC9600BFD6FF /* simple_class.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simple_class.cpp; sourceTree = "<group>"; };
+		769820C01A36BC9600BFD6FF /* simple_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simple_class.h; sourceTree = "<group>"; };
+		769820DD1A36C81D00BFD6FF /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
+		769820DE1A36C81D00BFD6FF /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		769820831A36BC1D00BFD6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7698208E1A36BC1D00BFD6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769820921A36BC1D00BFD6FF /* libgozap_libs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769820AA1A36BC4900BFD6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7698207D1A36BC1D00BFD6FF = {
+			isa = PBXGroup;
+			children = (
+				769820BA1A36BC9600BFD6FF /* Classes */,
+				769820871A36BC1D00BFD6FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		769820871A36BC1D00BFD6FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				769820861A36BC1D00BFD6FF /* libgozap_libs.a */,
+				769820911A36BC1D00BFD6FF /* gozap_libsTests.xctest */,
+				769820AD1A36BC4900BFD6FF /* libgozap_libs mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		769820BA1A36BC9600BFD6FF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				769820DD1A36C81D00BFD6FF /* HelloWorldScene.cpp */,
+				769820DE1A36C81D00BFD6FF /* HelloWorldScene.h */,
+				769820BB1A36BC9600BFD6FF /* gozap.cpp */,
+				769820BC1A36BC9600BFD6FF /* gozap.h */,
+				769820BF1A36BC9600BFD6FF /* simple_class.cpp */,
+				769820C01A36BC9600BFD6FF /* simple_class.h */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		769820AB1A36BC4900BFD6FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769820C41A36BC9600BFD6FF /* gozap.h in Headers */,
+				769820E21A36C81D00BFD6FF /* HelloWorldScene.h in Headers */,
+				769820CC1A36BC9600BFD6FF /* simple_class.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769821191A36DA2E00BFD6FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		769820851A36BC1D00BFD6FF /* gozap_libs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7698209A1A36BC1D00BFD6FF /* Build configuration list for PBXNativeTarget "gozap_libs" */;
+			buildPhases = (
+				769820821A36BC1D00BFD6FF /* Sources */,
+				769820831A36BC1D00BFD6FF /* Frameworks */,
+				769820841A36BC1D00BFD6FF /* CopyFiles */,
+				769821191A36DA2E00BFD6FF /* Headers */,
+				7698211B1A36DA3B00BFD6FF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gozap_libs;
+			productName = gozap_libs;
+			productReference = 769820861A36BC1D00BFD6FF /* libgozap_libs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		769820901A36BC1D00BFD6FF /* gozap_libsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7698209D1A36BC1D00BFD6FF /* Build configuration list for PBXNativeTarget "gozap_libsTests" */;
+			buildPhases = (
+				7698208D1A36BC1D00BFD6FF /* Sources */,
+				7698208E1A36BC1D00BFD6FF /* Frameworks */,
+				7698208F1A36BC1D00BFD6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769820941A36BC1D00BFD6FF /* PBXTargetDependency */,
+			);
+			name = gozap_libsTests;
+			productName = gozap_libsTests;
+			productReference = 769820911A36BC1D00BFD6FF /* gozap_libsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		769820AC1A36BC4900BFD6FF /* gozap_libs mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769820B51A36BC4900BFD6FF /* Build configuration list for PBXNativeTarget "gozap_libs mac" */;
+			buildPhases = (
+				769820A91A36BC4900BFD6FF /* Sources */,
+				769820AA1A36BC4900BFD6FF /* Frameworks */,
+				769820AB1A36BC4900BFD6FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gozap_libs mac";
+			productName = "gozap_libs mac";
+			productReference = 769820AD1A36BC4900BFD6FF /* libgozap_libs mac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7698207E1A36BC1D00BFD6FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zhaojm;
+				TargetAttributes = {
+					769820851A36BC1D00BFD6FF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					769820901A36BC1D00BFD6FF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					769820AC1A36BC4900BFD6FF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 769820811A36BC1D00BFD6FF /* Build configuration list for PBXProject "gozap_libs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7698207D1A36BC1D00BFD6FF;
+			productRefGroup = 769820871A36BC1D00BFD6FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				769820851A36BC1D00BFD6FF /* gozap_libs */,
+				769820901A36BC1D00BFD6FF /* gozap_libsTests */,
+				769820AC1A36BC4900BFD6FF /* gozap_libs mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7698208F1A36BC1D00BFD6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7698211B1A36DA3B00BFD6FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		769820821A36BC1D00BFD6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769820C91A36BC9600BFD6FF /* simple_class.cpp in Sources */,
+				769820DF1A36C81D00BFD6FF /* HelloWorldScene.cpp in Sources */,
+				769820C11A36BC9600BFD6FF /* gozap.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7698208D1A36BC1D00BFD6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769820C21A36BC9600BFD6FF /* gozap.cpp in Sources */,
+				769820CA1A36BC9600BFD6FF /* simple_class.cpp in Sources */,
+				769820E01A36C81D00BFD6FF /* HelloWorldScene.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769820A91A36BC4900BFD6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769820CB1A36BC9600BFD6FF /* simple_class.cpp in Sources */,
+				769820E11A36C81D00BFD6FF /* HelloWorldScene.cpp in Sources */,
+				769820C31A36BC9600BFD6FF /* gozap.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		769820941A36BC1D00BFD6FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769820851A36BC1D00BFD6FF /* gozap_libs */;
+			targetProxy = 769820931A36BC1D00BFD6FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		769820981A36BC1D00BFD6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		769820991A36BC1D00BFD6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7698209B1A36BC1D00BFD6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zhaojm/.gozap/projects/testjsbinding/frameworks/js-bindings/cocos2d-x/build/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../../GAF/Library/Sources $(SRCROOT)/../../cocos2d-x/cocos/platform/ios $(SRCROOT)/../../external/spidermonkey/include/ios $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/auto $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/manual $(SRCROOT)/../../GAF/bindings/auto";
+			};
+			name = Debug;
+		};
+		7698209C1A36BC1D00BFD6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zhaojm/.gozap/projects/testjsbinding/frameworks/js-bindings/cocos2d-x/build/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../../GAF/Library/Sources $(SRCROOT)/../../cocos2d-x/cocos/platform/ios $(SRCROOT)/../../external/spidermonkey/include/ios $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/auto $(SRCROOT)/../../cocos2d-x/plugin/jsbindings/manual $(SRCROOT)/../../GAF/bindings/auto";
+			};
+			name = Release;
+		};
+		7698209E1A36BC1D00BFD6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gozap_libsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7698209F1A36BC1D00BFD6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gozap_libsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		769820B61A36BC4900BFD6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		769820B71A36BC4900BFD6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		769820811A36BC1D00BFD6FF /* Build configuration list for PBXProject "gozap_libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769820981A36BC1D00BFD6FF /* Debug */,
+				769820991A36BC1D00BFD6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7698209A1A36BC1D00BFD6FF /* Build configuration list for PBXNativeTarget "gozap_libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7698209B1A36BC1D00BFD6FF /* Debug */,
+				7698209C1A36BC1D00BFD6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7698209D1A36BC1D00BFD6FF /* Build configuration list for PBXNativeTarget "gozap_libsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7698209E1A36BC1D00BFD6FF /* Debug */,
+				7698209F1A36BC1D00BFD6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769820B51A36BC4900BFD6FF /* Build configuration list for PBXNativeTarget "gozap_libs mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769820B61A36BC4900BFD6FF /* Debug */,
+				769820B71A36BC4900BFD6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7698207E1A36BC1D00BFD6FF /* Project object */;
+}

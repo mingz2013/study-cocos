@@ -1,0 +1,23 @@
+{"bones":[{"name":"root"}],"slots":[
+{"name":"youbi","bone":"root","attachment":"youbi"},
+{"name":"youjian","bone":"root","attachment":"youjian"},
+{"name":"xiati-1","bone":"root","attachment":"xiati-1"},
+{"name":"xiati-2","bone":"root","attachment":"xiati-2"},
+{"name":"xiati-3","bone":"root","attachment":"xiati-3"},
+{"name":"shangti","bone":"root","attachment":"shangti"},
+{"name":"zuobi","bone":"root","attachment":"zuobi"},
+{"name":"tou","bone":"root","attachment":"tou"},
+{"name":"zuojian1","bone":"root","attachment":"zuojian1"},
+{"name":"zuojian","bone":"root","attachment":"zuojian"},
+],"skins":{"default":{
+"youbi":{"youbi":{"x":179,"y":419.5,"width":136,"height":281}},
+"youjian":{"youjian":{"x":177,"y":520,"width":62,"height":114}},
+"xiati-1":{"xiati-1":{"x":306.5,"y":276,"width":285,"height":438}},
+"xiati-2":{"xiati-2":{"x":332.5,"y":277,"width":337,"height":436}},
+"xiati-3":{"xiati-3":{"x":315,"y":276.5,"width":302,"height":437}},
+"shangti":{"shangti":{"x":270,"y":513.5,"width":158,"height":187}},
+"zuobi":{"zuobi":{"x":396,"y":411.5,"width":234,"height":327}},
+"tou":{"tou":{"x":249,"y":641.5,"width":216,"height":221}},
+"zuojian1":{"zuojian1":{"x":431,"y":516,"width":152,"height":72}},
+"zuojian":{"zuojian":{"x":339,"y":557.5,"width":156,"height":135}},
+}}, "animations": { "animation": {} }}

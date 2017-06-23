@@ -1,0 +1,46 @@
+{
+	"clipping": {
+		"i_1": [{
+			"name": "i_1_0",
+			"y": 0,
+			"x": 997
+		}, {
+			"name": "i_1_1",
+			"y": 0,
+			"x": 0
+		}],
+		"clippingPadding": 3
+	},
+	"version": 1418893960879,
+	"scale": 0.5,
+	"fileName": "changjing3",
+	"imgArr": [{
+		"size": 274177,
+		"name": 1
+	}, {
+		"size": 586239,
+		"name": 0
+	}],
+	"mcObjs": {
+		"root": {
+			"direction": 1,
+			"floor": 636.5,
+			"layers": [
+				[{
+					"libName": "i_1",
+					"y": -1687,
+					"x": 0
+				}]
+			],
+			"screenX": 0,
+			"frameTime": 41,
+			"screenY": -90.15,
+			"stageHeight": 1544.9,
+			"floorHeight": 335.9,
+			"totalFrame": 1,
+			"screenW": 2846,
+			"screenH": 1367.8,
+			"stageY": 55.95
+		}
+	}
+}

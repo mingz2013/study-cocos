@@ -1,0 +1,44 @@
+{
+	"clipping": {
+		"clippingPadding": 3
+	},
+	"version": 1418613196245,
+	"scale": 1,
+	"mcObjs": {
+		"root": {
+			"screenH": 640,
+			"layers": [
+				[{
+					"c": 0.03,
+					"cx": -0.5,
+					"y": -113.1,
+					"sx": 1,
+					"b": 0.5,
+					"sy": 1,
+					"libName": "i_1",
+					"a": 0.87,
+					"d": 1.17,
+					"cy": -0.5,
+					"x": 63.75
+				}],
+				[{
+					"libName": "i_2",
+					"y": -129.6,
+					"sx": 1,
+					"sy": 1,
+					"x": 0
+				}]
+			],
+			"totalFrame": 1,
+			"stageHeight": 130.1,
+			"property": {},
+			"direction": 1,
+			"frameTime": 41
+		}
+	},
+	"fileName": "juzhenhaiyuan",
+	"imgArr": [{
+		"size": 849,
+		"name": 0
+	}]
+}

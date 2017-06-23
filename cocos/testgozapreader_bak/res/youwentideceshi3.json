@@ -1,0 +1,37 @@
+{
+	"imgArr": [{
+		"size": 4556,
+		"name": 0
+	}],
+	"mcObjs": {
+		"root": {
+			"stageHeight": 49.35,
+			"screenH": 640,
+			"layers": [
+				[{
+					"libName": "i_1",
+					"y": -54.3,
+					"b": 0.98,
+					"c": -0.98,
+					"a": -0.16,
+					"d": -0.16,
+					"x": 47.84
+				}]
+			],
+			"frameTime": 41,
+			"frameLabels": {
+				"anim_death": {
+					"begin": 0
+				}
+			},
+			"direction": 1,
+			"totalFrame": 1
+		}
+	},
+	"clipping": {
+		"clippingPadding": 3
+	},
+	"version": 1418784904496,
+	"scale": 1,
+	"fileName": "youwentideceshi3"
+}
