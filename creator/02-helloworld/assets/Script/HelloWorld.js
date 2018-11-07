@@ -13,12 +13,21 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
+        cc.log("onLoad...");
+        this.values = [1, 2];
         this.label.string = this.text;
-//         this.values = [1];
+        this.label.string = this.values[0] + "," + this.values[1];
+        this.enabled = true;
+        this.schedule(function () {
+            cc.log(this.label.string);
+            this.label.string += "a";
+
+        }, 5, 3, 1);
+
     },
 
     // called every frame
     update: function (dt) {
-
+        // cc.log(dt);
     },
 });
