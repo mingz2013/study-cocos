@@ -18,9 +18,11 @@ cc.Class({
         this.label.string = this.text;
         this.label.string = this.values[0] + "," + this.values[1];
         this.enabled = true;
+        this.flag_m = 97;
         this.schedule(function () {
             cc.log(this.label.string);
-            this.label.string += "a";
+            this.label.string += String.fromCharCode(this.flag_m);
+            this.flag_m++;
 
         }, 5, 3, 1);
 
