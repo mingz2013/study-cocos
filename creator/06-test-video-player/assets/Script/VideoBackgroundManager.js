@@ -53,7 +53,8 @@ cc.Class({
     // update (dt) {},
 
     onVideoPlayerEvent (sender, event) {
-        cc.log("event: ", event);
+        cc.log("=====> event: ", event);
+        cc.log("=====eventType: ", JSON.stringify(cc.VideoPlayer.EventType));
         // this.statusLabel.string = 'Status: ' + getStatus(event);
         // if (event === cc.VideoPlayer.EventType.CLICKED) {
         //     if (this.videoPlayer.isPlaying()) {
@@ -68,7 +69,7 @@ cc.Class({
             let video = this.node.getComponent(cc.VideoPlayer);
             video.play();
 
-        }else if(event === cc.VideoPlayer.EventType.STOPPED){
+        } else if (event === cc.VideoPlayer.EventType.STOPPED || event === cc.VideoPlayer.EventType.COMPLETED) {
             let video = this.node.getComponent(cc.VideoPlayer);
             video.play();
         }

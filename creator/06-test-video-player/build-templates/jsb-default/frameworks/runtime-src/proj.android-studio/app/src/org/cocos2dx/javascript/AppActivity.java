@@ -56,6 +56,7 @@ public class AppActivity extends Cocos2dxActivity {
         Cocos2dxGLSurfaceView glSurfaceView = new Cocos2dxGLSurfaceView(this);
         // TestCpp should create stencil buffer
         glSurfaceView.setEGLConfigChooser(5, 6, 5, 0, 16, 8);
+        glSurfaceView.setEGLConfigChooser(8, 8, 8, 8, 16, 8);
         // 设置像素格式
         glSurfaceView.getHolder().setFormat(PixelFormat.RGBA_8888);
         SDKWrapper.getInstance().setGLSurfaceView(glSurfaceView, this);
